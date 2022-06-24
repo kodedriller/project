@@ -3,9 +3,6 @@
 
 Amazing yet simple object tracker built entirely with OpenCV
 
-All thanks to Adrian Rosebrock (from [pyimagesearch](https://www.pyimagesearch.com/)) for making
-great tutorials. This project is inspired from his blog: [Simple object tracking with OpenCV](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/). I have included the author's code and the one i wrote my self as well.
-
 ## **Key Points**
 1. Steps involved:
     1. Detect the objects in the image and calculate their centroids.
@@ -36,9 +33,6 @@ great tutorials. This project is inspired from his blog: [Simple object tracking
 
 ## **Results:**
 The results are awesome. We are successfully able to detect and track the objects in the video stream via webcam.
-
-![Gif of object tracking](animation.gif)
-
 
 ## **The limitations**
 1. This project requires the object detection to be run on every frame of the video. This could be slow for heavy deep learning based detector, but can work for fast detectors (like color thresholding  and Haar cascades) that don't do heavy computations.
